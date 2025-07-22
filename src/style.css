@@ -130,8 +130,15 @@ button {
   cursor: pointer;
   font-weight: 600;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  transition: background 0.2s, transform 0.1s;
+  transition: background 0.2s, transform 0.18s cubic-bezier(.4,2,.6,1), box-shadow 0.18s cubic-bezier(.4,2,.6,1), filter 0.18s cubic-bezier(.4,2,.6,1);
   box-shadow: 0 2px 8px #b5b5b540;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #00ffff 0%, #4f8cff 100%);
+  transform: translateY(-4px) scale(1.07);
+  box-shadow: 0 8px 24px #00ffff40, 0 2px 8px #b5b5b540;
+  filter: brightness(1.08) saturate(1.2);
 }
 
 button.btn-excluir, button.btn-remover {

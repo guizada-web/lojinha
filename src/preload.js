@@ -4,5 +4,6 @@ contextBridge.exposeInMainWorld('api', {
   getProducts: () => ipcRenderer.invoke('get-products'),
   addProduct: (product) => ipcRenderer.invoke('add-product', product),
   updateProduct: (product) => ipcRenderer.invoke('update-product', product),
-  deleteProduct: (id) => ipcRenderer.invoke('delete-product', id)
+  deleteProduct: (id) => ipcRenderer.invoke('delete-product', id),
+  registrarVenda: (venda) => ipcRenderer.invoke('registrar-venda', venda)
 });

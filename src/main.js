@@ -1,4 +1,18 @@
 const { app, BrowserWindow, ipcMain } = require('electron');
+const fs = require('fs');
+// Handler para registrar venda
+ipcMain.handle('registrar-venda', (event, venda) => {
+  const vendasPath = path.join(__dirname, 'vendas.json');
+  let vendas = [];
+  if (fs.existsSync(vendasPath)) {
+    try {
+      vendas = JSON.parse(fs.readFileSync(vendasPath, 'utf8'));
+    } catch (e) { vendas = []; }
+  }
+  vendas.push(venda);
+  fs.writeFileSync(vendasPath, JSON.stringify(vendas, null, 2), 'utf8');
+  return true;
+});
 const path = require('path');
 const db = require('./db');
 

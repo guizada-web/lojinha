@@ -1,0 +1,116 @@
+[
+  {
+    "data": "22/07/2025, 09:35:22",
+    "itens": [
+      {
+        "nome": "arroz",
+        "qtd": 1,
+        "preco": 10
+      }
+    ],
+    "total": 10
+  },
+  {
+    "data": "22/07/2025, 09:35:35",
+    "itens": [
+      {
+        "nome": "arroz",
+        "qtd": 1,
+        "preco": 10
+      }
+    ],
+    "total": 10
+  },
+  {
+    "data": "22/07/2025, 09:35:51",
+    "itens": [
+      {
+        "nome": "arroz",
+        "qtd": 1,
+        "preco": 10
+      }
+    ],
+    "total": 10
+  },
+  {
+    "data": "22/07/2025, 09:38:57",
+    "itens": [
+      {
+        "nome": "arroz",
+        "qtd": 1,
+        "preco": 10
+      }
+    ],
+    "total": 10
+  },
+  {
+    "data": "22/07/2025, 09:39:03",
+    "itens": [
+      {
+        "nome": "arroz",
+        "qtd": 1,
+        "preco": 10
+      }
+    ],
+    "total": 10
+  },
+  {
+    "data": "22/07/2025, 09:40:48",
+    "itens": [
+      {
+        "nome": "arroz",
+        "qtd": 1,
+        "preco": 10
+      }
+    ],
+    "total": 10
+  },
+  {
+    "data": "22/07/2025, 10:38:44",
+    "itens": [
+      {
+        "nome": "arroz",
+        "qtd": 2,
+        "preco": 10
+      },
+      {
+        "nome": "cafe",
+        "qtd": 1,
+        "preco": 15
+      }
+    ],
+    "total": 35
+  },
+  {
+    "data": "22/07/2025, 10:39:05",
+    "itens": [
+      {
+        "nome": "arroz",
+        "qtd": 1,
+        "preco": 10
+      },
+      {
+        "nome": "cafe",
+        "qtd": 1,
+        "preco": 15
+      }
+    ],
+    "total": 25
+  },
+  {
+    "data": "22/07/2025, 10:39:32",
+    "itens": [
+      {
+        "nome": "arroz",
+        "qtd": 1,
+        "preco": 10
+      },
+      {
+        "nome": "cafe",
+        "qtd": 2,
+        "preco": 15
+      }
+    ],
+    "total": 40
+  }
+]
