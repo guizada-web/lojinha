@@ -1,0 +1,14 @@
+{
+  "name": "lojinha-gui",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "electron": "^30.0.0",
+    "mysql3": "^0.7.4",
+    "sqlite3": "^5.1.6"
+  }
+}

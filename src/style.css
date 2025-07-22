@@ -1,0 +1,223 @@
+/* Tema escuro */
+body.dark-theme {
+  background: linear-gradient(120deg, #23243a 0%, #181a2b 100%);
+  color: #f3f3fa;
+}
+body.dark-theme h1 {
+  color: #f3f3fa;
+  text-shadow: 0 2px 8px #181a2b;
+}
+body.dark-theme section {
+  background: #23243a;
+  box-shadow: 0 4px 24px #0008;
+}
+body.dark-theme table {
+  background: #23243a;
+}
+body.dark-theme th {
+  background: #181a2b;
+  color: #e3e6f3;
+}
+body.dark-theme tr:nth-child(even) td {
+  background: #23243a;
+}
+body.dark-theme tr:hover td {
+  background: #181a2b;
+}
+body.dark-theme td {
+  color: #f3f3fa;
+}
+body.dark-theme input[type="text"],
+body.dark-theme input[type="number"] {
+  background: #23243a;
+  color: #f3f3fa;
+  border: 1px solid #44445a;
+}
+body.dark-theme input[type="text"]:focus,
+body.dark-theme input[type="number"]:focus {
+  border: 1.5px solid #7b2ff2;
+}
+body.dark-theme button {
+  background: linear-gradient(90deg, #23243a 0%, #7b2ff2 100%);
+  color: #fff;
+  box-shadow: 0 2px 8px #0008;
+}
+body.dark-theme button:hover {
+  background: linear-gradient(90deg, #7b2ff2 0%, #23243a 100%);
+}
+body.dark-theme #form-produto button[type="submit"] {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  color: #23243a;
+}
+body.dark-theme #form-produto button[type="submit"]:hover {
+  background: linear-gradient(90deg, #38f9d7 0%, #43e97b 100%);
+}
+body.dark-theme #form-produto button#cancelar-edicao {
+  background: #e63946;
+  color: #fff;
+}
+body.dark-theme #form-produto button#cancelar-edicao:hover {
+  background: #b71c1c;
+}
+body.dark-theme #total-carrinho {
+  color: #43e97b;
+}
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  background: linear-gradient(120deg, #f5f5dc 50%, #f5f5dc 50%);
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5em;
+  color: #22223b;
+  margin-top: 32px;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 8px #b5b5b5;
+}
+
+section {
+  background: #fff;
+  padding: 32px 24px 24px 24px;
+  margin: 32px auto 32px auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px #b5b5b540;
+  max-width: 900px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 18px;
+  background: #f9f9fb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  border: none;
+  padding: 14px 10px;
+  text-align: center;
+  font-size: 1.05em;
+}
+
+th {
+  background: #22223b;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+tr:nth-child(even) td {
+  background: #f1f1f7;
+}
+
+tr:hover td {
+  background: #e9e9f3;
+}
+
+button {
+  padding: 8px 18px;
+  margin: 2px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #4f8cff 0%, #00ffff 100%);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 2px 8px #b5b5b540;
+}
+
+button.btn-excluir, button.btn-remover {
+  background: linear-gradient(90deg, #e63946 0%, #b71c1c 100%) !important;
+  color: #fff !important;
+}
+button.btn-excluir:hover, button.btn-remover:hover {
+  background: linear-gradient(90deg, #b71c1c 0%, #e63946 100%) !important;
+  transform: scale(1.05);
+}
+
+/* Tema escuro para excluir/remover */
+body.dark-theme button.btn-excluir, body.dark-theme button.btn-remover {
+  background: linear-gradient(90deg, #b71c1c 0%, #e63946 100%) !important;
+  color: #fff !important;
+}
+body.dark-theme button.btn-excluir:hover, body.dark-theme button.btn-remover:hover {
+  background: linear-gradient(90deg, #e63946 0%, #b71c1c 100%) !important;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 8px 10px;
+  margin: 2px 6px;
+  border-radius: 8px;
+  border: 1px solid #bdbdbd;
+  font-size: 1em;
+  background: #f7f7fa;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+  border: 1.5px solid #00ffff;
+  outline: none;
+}
+
+#form-produto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#form-produto input, #form-produto button {
+  flex: 1 1 120px;
+}
+
+#form-produto button[type="submit"] {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  color: #22223b;
+  font-weight: bold;
+}
+
+#form-produto button[type="submit"]:hover {
+  background: linear-gradient(90deg, #38f9d7 0%, #43e97b 100%);
+}
+
+#form-produto button#cancelar-edicao {
+  background: #800000;
+  color: #fff;
+}
+
+#form-produto button#cancelar-edicao:hover {
+  background: #800000;
+}
+
+#total-carrinho {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 18px;
+  text-align: right;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 700px) {
+  section {
+    padding: 12px 2vw;
+    margin: 16px 0;
+    max-width: 100vw;
+  }
+  table, th, td {
+    font-size: 0.95em;
+  }
+  #form-produto {
+    flex-direction: column;
+    gap: 6px;
+  }
+}

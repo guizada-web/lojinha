@@ -1,0 +1,6 @@
+node_modules/
+lojinha.db
+*.db
+.env
+.DS_Store
+/dist/
